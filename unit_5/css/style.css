@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Forum);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/guitar.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2A8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	font-family: Forum, sans-serif;
+	font-weight: normal;
+	font-size: 4.25em;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+hr {
+	width: 100%;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 200%;
+	margin-bottom: .75em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 1em 0 0;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 3em;
+}
+
+nav ul a {
+	color: #fff;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 3em;
+}
+
+li {
+	font-size: 1.25em;
+	line-height: 200%;
+	margin-bottom: .75em;
+}
+
+a {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.wrapper {
+	background: rgba(0,0,0,.9);
+	height: 100vh;
+	width: auto;
+	padding: 4em;
+	margin: 0;
+}
+
+/* Classes */
+
+.slogan {
+	margin-bottom: 1%;
+	font-size: 2em;
+	line-height: 120%;
+}
