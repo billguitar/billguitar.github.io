@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: lightblue;
+	font-family: "Open Sans", "sans serif";
+	color: black;
+}
+
+#slogan {
+	font-style: oblique;
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+
+#date {
+	float: right;
+	font-weight: 900;
+	/*background-color: white;*/
+	background-color: #909090;
+	color: white;
+	padding: .5em 1em;
+}
+
+.wrapper {
+	padding: 2em;
+}
+
+p+p {
+	margin-top: 1.25em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em; 
+}
+
+nav ul li a {
+	display: inline-block;
+	background-color: white;
+	padding: .5em;
+} 
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	color: lightblue;
+	background-color: #909090;
+}
+
+.topstoryleft {
+	background-color: blueviolet;
+	float: left;
+	width: 48%;
+	padding: 20px;
+}
+
+.topstoryright {
+	background-color: fuchsia;
+	float: right;
+	width: 48%;
+	padding: 20px;
+}
+
+.dailyfeature {
+	border: 1px black dashed;
+	float: left;	
+	width: 72%;
+	padding: 20px;
+}
+
+.dailysidebar {
+	background-color: orange;
+	font-size: .8em;
+	float: right;
+	width: 24%;
+	padding: 20px;
+}
+
+.spacer {
+	line-height: 2em;
+	clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#copyright {
+	font-size: .75em;
+	font-weight: 500;
+	color: gray;
+	border-top: 1px gray solid;
+	padding-top: 1em;
+	margin-top: 3em;
+}
